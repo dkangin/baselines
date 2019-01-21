@@ -24,7 +24,7 @@ The test environment ids must be listed in launch_test.py as follows: ```env_ids
 ```NUM_FOLDS``` specifies the number of repetitive experiments for the same environment
 The experiment results are logged in the subdirectory named according to the following pattern:  ```logs_{ENVIRONMENT_ID}_{FOLD_INDEX}```, so that ```logs_Ant-v2_0``` means that this is the folder with logs for the environment Ant-v2, fold index is 0. 
 
-## Results visualisation
+## Visualisation of results
 The original visualiser, used for the paper, is located in ../customised_plotter.py . It outputs the file for every task in the listed directory.  
-Parameters of visualiser, including the listed directories and the names of the algorithms, are set in the main function of the file. The file is used as : python3 customised_plotter.py
+Parameters of the visualiser, including the listed directories and the names of the algorithms, are set in the main function of the file. The file is used as : python3 customised_plotter.py
 
