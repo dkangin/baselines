@@ -1,6 +1,6 @@
 # TRPO-REPLAY
 The implementation is based on the OpenAI baselines library and ACKTR implementation in particular. 
-Original paper: [https://arxiv.org/abs/1901.06212]
+Original paper: https://arxiv.org/abs/1901.06212
 
 Dmitry Kangin, Nicolas Pugeault (2018) On-Policy Trust Region Policy Optimisation with Replay Buffers, arXiv:1901.06212
  
